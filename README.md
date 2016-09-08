@@ -41,10 +41,10 @@ Add to your init file:
   "Copies with Plak"
   (interactive)
   (shell-command-on-region (region-beginning) (region-end)
-  (concat "curl -s -X PUT "
-          "-H 'Content-Type: text/plain; charset=utf-8' "
-          "http://localhost:" (number-to-string plak-port) "/clipboard "
-          "--data-binary @-")))
+    (concat "curl -s -X PUT "
+            "-H 'Content-Type: text/plain; charset=utf-8' "
+            "http://localhost:" (number-to-string plak-port) "/clipboard "
+            "--data-binary @-")))
 (defun wpaste ()
   "Pastes with Plak"
   (interactive)
@@ -57,7 +57,7 @@ Now you can use or keymap the `wcopy` and `wpaste` commands.
 
 ## License
 
-Copyright © 2016 Sander Dijkhuis
+Copyright Â© 2016 Sander Dijkhuis
 
 Permission is hereby granted, free of charge, to any person
 obtaining a copy of this software and associated documentation
