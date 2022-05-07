@@ -7,6 +7,14 @@ $ wpaste > ~/clipboard-contents
 $ fortune | wcopy
 ```
 
+## Building
+
+Open the `plak.sln` solution with Visual Studio. The Community edition will suffice. Build the project to get `Plak.Windows.exe`.
+
+## Prerequisites
+
+Install the `FSharp.Core.dll` library. For example by [installing the .NET SDK](https://dotnet.microsoft.com/en-us/learn/languages/fsharp-hello-world-tutorial/install). [In issue #1](https://github.com/sander/plak/issues/1#issuecomment-1112959513) a more lightweight way was found: obtaining the DLL file directly from a F# repository. Pull requests are welcome to improve this installation workflow for users.
+
 ## Installation in Windows
 
 1. Press Windows + R, type `shell:startup`, and press Enter.
