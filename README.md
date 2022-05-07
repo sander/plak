@@ -9,7 +9,7 @@ $ fortune | wcopy
 
 ## Building
 
-Open the `plak.sln` solution with Visual Studio. The Community edition will suffice. Build the project to get `Plak.Windows.exe`.
+If you want to build the project yourself instead of [downloading a release](https://github.com/sander/plak/releases): Open the `plak.sln` solution with Visual Studio. The Community edition will suffice. Build the project to get `Plak.Windows.exe`.
 
 ## Prerequisites
 
